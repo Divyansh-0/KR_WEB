@@ -1,4 +1,4 @@
-.about {
+/* .about {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -45,4 +45,37 @@
 }
 .desc:hover {
   filter: drop-shadow(100);
+} */
+
+.header {
+  font-family: 'Mukta', sans-serif;
+  background-color: #cbe4de;
+  background-image: url(../../assests/front-photo.jpg);
+  height: 70vh;
+  padding: 30vh 10vw;
+  background-size: cover;
+  background-blend-mode: multiply;
+  color: white;
+  text-align: center;
+  text-shadow: 0px 0px 5px #000;
+}
+
+.header p {
+  font-size: larger;
+}
+
+.read-btn {
+  color: #008000;
+  background-color: #dfdf1f;
+  padding: 5px 30px;
+  border: 2px solid transparent;
+  border-radius: 3px;
+}
+
+.read-btn:hover {
+  border-radius: 30px;
+  transition-duration: 0.5s;
+  transition-property: border-radius;
+  transition-timing-function: ease-in-out;
+  cursor: pointer;
 }

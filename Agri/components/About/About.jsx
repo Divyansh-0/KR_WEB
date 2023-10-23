@@ -3,7 +3,16 @@ import Farmer from "../../assests/kissan3.jpeg";
 
 const About = () => {
   return (
-    <div className="about">
+    <div className="header">
+      <p>Welcome to KisanSathi, your comprehensive agricultural support hub. Our platform brings you a world of agricultural services, cutting-edge technology, and vital information to empower your farming journey. Explore a range of services tailored for farmers like you.</p>
+      <button className="read-btn">Read more</button>
+    </div>
+  );
+};
+
+export default About;
+
+/* <div className="about">
       <div className="container">
         <div className="image">
           <img src={Farmer} alt="" />
@@ -26,8 +35,4 @@ const About = () => {
           laudantium.
         </p>
       </div>
-    </div>
-  );
-};
-
-export default About;
+    </div> */

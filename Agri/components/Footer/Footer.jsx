@@ -8,13 +8,10 @@ const Footer = () => {
     <footer>
       <div className="container footer__container">
         <article>
-          <img src={Logo} alt="Logo" className="im" />
-
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum eum
-            architecto ad in neque soluta adipisci reiciendis, quo aliquam
-            culpa.
-          </p>
+          <div className="name-logo">
+            <img src=".\assests\l1.jpg" alt="logo" />
+            <a href="/">KisanSathi</a>
+          </div>
           <div className="footer__socials">
             <a
               href="https://linkedin.com/"
